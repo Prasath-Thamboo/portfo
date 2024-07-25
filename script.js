@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Couverture", "Charpente", "Gouttière", "isolation des combles", "Entretien toiture"],
+        strings: ["Développeur full stack", "Monteur video", "Expert SEO", "Expert cybersécurité"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Couverture", "Charpente", "Gouttière", "isolation des combles", "Entretien toiture"],
+        strings: ["Développeur full stack", "Monteur video", "Expert SEO", "Expert cybersécurité"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
