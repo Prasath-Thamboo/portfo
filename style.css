@@ -400,7 +400,7 @@ section .title::after{
   
   .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #149279);
+    background: linear-gradient(135deg, transparent 20%, black);
     position: absolute;
   }
   
@@ -507,6 +507,7 @@ section .title::after{
   .btn:hover {
     background-color: transparent;
     color: #fff;
+    border: 2px solid white;
   }
   
   .input-container span {
