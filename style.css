@@ -311,6 +311,7 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+  color : grey
 }
 
 /* teams section styling */
@@ -335,6 +336,11 @@ section .title::after {
   justify-content: center;
   transition: all 0.3s ease;
 }
+
+.teams .carousel .card .box p{
+ color : white
+}
+
 .teams .carousel .card:hover .box {
   transform: scale(1.05);
 }
@@ -342,6 +348,7 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+  color : grey
 }
 .teams .carousel .card img {
   height: 150px;
@@ -389,6 +396,7 @@ section .title::after {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .form {
@@ -677,7 +685,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background-color: #24262b;
+  background-color: #222;
   padding: 70px 0;
 }
 .footer-col {
