@@ -678,6 +678,7 @@ textarea.input {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 ul {
   list-style: none;
@@ -741,6 +742,15 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 850px) {
   .form {
@@ -825,6 +835,16 @@ ul {
 
   .btn {
     padding: 0.45rem 1.2rem;
+  }
+
+  .row{
+    flex-direction: column;
+
+  }
+  .footer-col{
+    width: 100%; 
+    padding-bottom : 50px; 
+    
   }
 }
 
