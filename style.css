@@ -61,7 +61,7 @@ section .title {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 60px;
-  padding-bottom: 45px;
+  padding-bottom: 100px;
 }
 section .title::before {
   content: "";
@@ -846,6 +846,9 @@ ul {
     padding-bottom : 50px; 
     
   }
+}
+@media (max-width: 350px) {
+  
 }
 
 /* responsive media query start */
